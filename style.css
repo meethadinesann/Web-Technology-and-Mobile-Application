@@ -1,0 +1,115 @@
+/* General Styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #fff0f5; /* very light pink */
+}
+
+/* Header */
+header {
+  background: #d63384; /* dark pink */
+  color: white;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+  font-weight: bold;
+}
+
+header nav a:hover {
+  color: #ffe6f0; /* soft pink hover */
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  padding: 60px;
+  background: linear-gradient(to right, #ffb6c1, #ffc0cb); /* pink gradient */
+  color: #8b005d;
+}
+
+.hero h2 {
+  font-size: 2.5rem;
+}
+
+/* Property Section */
+.property-section {
+  padding: 40px;
+  text-align: center;
+}
+
+.property-section h2 {
+  color: #c2185b;
+}
+
+/* Property Container */
+.property-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+/* Property Cards */
+.property-card {
+  background: #ffffff;
+  width: 300px;
+  padding: 15px;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(214, 51, 132, 0.3);
+  transition: 0.3s;
+  border: 2px solid #ffc0cb;
+}
+
+.property-card img {
+  width: 100%;
+  border-radius: 12px;
+}
+
+.property-card h3 {
+  color: #d63384;
+}
+
+.property-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 18px rgba(214, 51, 132, 0.5);
+}
+
+/* Price Styling */
+.price {
+  font-size: 18px;
+  font-weight: bold;
+  color: #ff1493; /* hot pink */
+}
+
+/* Button */
+button {
+  background: #ff69b4; /* medium pink */
+  color: white;
+  border: none;
+  padding: 10px;
+  width: 100%;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+button:hover {
+  background: #d63384; /* darker pink */
+}
+
+/* Footer */
+footer {
+  background: #c2185b;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 20px;
+}
